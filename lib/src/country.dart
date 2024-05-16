@@ -1,16 +1,32 @@
-part of country_phone_validator;
+part of '../country_phone_validator.dart';
 
+/// Represents a country with its associated information.
 class Country {
+  /// The name of the country.
   final String name;
-  final String isoCode;
-  final String dialCode;
-  final int phoneMinLength;
-  final int phoneMaxLength;
-  final List<String> startingDigits;
 
-  Country(this.name, this.isoCode, this.dialCode, this.phoneMinLength,
-      this.phoneMaxLength,
-      {this.startingDigits = const []});
+  /// The ISO 3166-1 alpha-2 code of the country.
+  final String isoCode;
+
+  /// The international dialing code of the country.
+  final String dialCode;
+
+  /// The minimum length of a phone number in the country.
+  final int phoneMinLength;
+
+  /// The maximum length of a phone number in the country.
+  final int phoneMaxLength;
+
+  /// The starting digits of the phone number in the country.
+  final List<String> startingDigits;
+  Country(
+    this.name,
+    this.isoCode,
+    this.dialCode,
+    this.phoneMinLength,
+    this.phoneMaxLength, {
+    this.startingDigits = const [],
+  });
 }
 
 List<Country> countries = [
