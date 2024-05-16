@@ -1,3 +1,5 @@
+## 1.0.1
+- Remove trash countries
 ## 1.0.0
 - Edit package description
 ## 0.0.4
