@@ -1,6 +1,7 @@
 name: country_phone_validator
 description: A package to validate phone numbers based on country codes.
 version: 0.0.1
+repository: https://github.com/ceto2016/country_phone_validator
 # repository: https://github.com/my_org/my_repo
 environment:
   sdk: ^3.3.4
