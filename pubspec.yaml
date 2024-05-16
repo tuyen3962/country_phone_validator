@@ -1,6 +1,6 @@
 name: country_phone_validator
-description: A Dart package to validate phone numbers based on country codes. Retrieve country information including ISO codes and dialing codes. Ideal for applications requiring phone number validation and country-specific formatting.
-version: 0.0.4
+description: A Dart package for validating phone numbers based on country codes. Includes country info retrieval.
+version: 1.0.0
 repository: https://github.com/ceto2016/country_phone_validator
 # repository: https://github.com/my_org/my_repo
 environment:

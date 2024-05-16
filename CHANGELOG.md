@@ -1,3 +1,5 @@
+## 1.0.0
+- Edit package description
 ## 0.0.4
 - Add api documentation
 ## 0.0.3

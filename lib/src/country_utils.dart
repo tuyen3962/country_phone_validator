@@ -11,6 +11,7 @@ class CountryUtils {
     if (index < 0) return null;
     return countries[index];
   }
+
   /// Retrieve a country by its ISO code.
 
   static Country? getCountryByIsoCode(String isoCode) {
@@ -18,6 +19,7 @@ class CountryUtils {
     if (index < 0) return null;
     return countries[index];
   }
+
   /// Validate a phone number based on the country's dial code.
   static bool validatePhoneNumber(String phoneNumber, String dialCode) {
     Country? country = getCountryByDialCode(dialCode);
@@ -29,6 +31,7 @@ class CountryUtils {
         country.startingDigits.any((digits) => phoneNumber.startsWith(digits));
     return lengthValid && startingDigitsValid;
   }
+
   /// Validate a phone number based on the country
   static bool validatePhoneNumberByContry(String phoneNumber, Country country) {
     int length = phoneNumber.length;
