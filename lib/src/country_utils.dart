@@ -33,7 +33,7 @@ class CountryUtils {
   }
 
   /// Validate a phone number based on the country
-  static bool validatePhoneNumberByContry(String phoneNumber, Country country) {
+  static bool validatePhoneNumberByCountry(String phoneNumber, Country country) {
     int length = phoneNumber.length;
     bool lengthValid =
         length >= country.phoneMinLength && length <= country.phoneMaxLength;
